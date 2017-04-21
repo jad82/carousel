@@ -29,6 +29,7 @@ section {
   list-style-type: none;
   color: white;
   font-size: 20px;
+  float: left;
 }
 .img1 {
   background-image: url("https://c1.staticflickr.com/3/2914/14255859514_c7d59db02a_z.jpg");
