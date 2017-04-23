@@ -12,8 +12,7 @@ $(function() {
 	};
 
 	function showPrevious () {
-		moveLastSlide();
-		carouselList.animate({'marginLeft': -400}, 500, moveLastSlide);
+		carouselList.animate({'marginLeft': 0}, 500, moveLastSlide);
 	};
 
 	function moveLastSlide () {
