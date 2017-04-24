@@ -12,7 +12,8 @@ $(function() {
 	};
 
 	function showPrevious () {
-		carouselList.animate({'marginLeft': 0}, 500, moveLastSlide);
+		moveLastSlide();
+		carouselList.animate({'marginLeft': 0}, 500);
 	};
 
 	function moveLastSlide () {
@@ -22,7 +23,7 @@ $(function() {
 		carouselList.css({marginLeft:-400});
 	};
 
-	setInterval(showNext, 3000);
+	//setInterval(showNext, 3000);
 	var nextButton = $("#next");
   	var prevButton = $("#prev");
 	
